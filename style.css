@@ -9,6 +9,7 @@ h1,
 h2 {
     font-family: 'Playfair Display', serif;
     margin-top: 50px;
+    padding-top: 50px;
 }
 
 body {
@@ -27,12 +28,12 @@ main {
 
 .ourOffer {
     text-align: center;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
 img {
-    width: 300px;
+    max-width: 350px;
 }
 
 .homePictures {
@@ -45,6 +46,7 @@ img {
 .description {
     margin-left: 15%;
     margin-right: 15%;
+    margin-bottom: 50px;
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
@@ -69,4 +71,13 @@ img {
 
 footer {
     text-align: center;
+    padding: 50px 30%;
+}
+
+button {
+    background-color: #ffefef;
+    border: none;
+    padding: 10px;
+    border-radius: 2px;
+    cursor: pointer;
 }
