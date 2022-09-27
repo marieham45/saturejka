@@ -8,4 +8,65 @@ html {
 h1,
 h2 {
     font-family: 'Playfair Display', serif;
+    margin-top: 50px;
+}
+
+body {
+    background-color: #ffefef;
+}
+
+header {
+    text-align: center;
+}
+
+main {
+    background-color: #ffffff;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.ourOffer {
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+img {
+    width: 300px;
+}
+
+.homePictures {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding: 50px 10px;
+}
+
+.description {
+    margin-left: 15%;
+    margin-right: 15%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.description div {
+    flex-basis: calc(50% - 10px);
+    margin-top: 50px;
+}
+
+.food {
+    display: flex;
+    gap: 10px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.food div {
+    flex-basis: calc(50% - 10px);
+
+}
+
+footer {
+    text-align: center;
 }
